@@ -1,0 +1,30 @@
+{
+  "name": "strapi-provider-email-nodemailerics",
+  "version": "1.0.0",
+  "description": "Un ICS para nodermailer en Strapi 4",
+  "main": "./lib",
+  "directories": {
+    "lib": "./lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rexdariodeveloper/strapi-provider-email-nodemailerics.git"
+  },
+  "author": "Ing. Rene Carrillo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rexdariodeveloper/strapi-provider-email-nodemailerics/issues"
+  },
+  "homepage": "https://github.com/rexdariodeveloper/strapi-provider-email-nodemailerics#readme",
+  "dependencies": {
+    "lodash": "4.17.21",
+    "nodemailer": "6.9.1"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  }
+}
